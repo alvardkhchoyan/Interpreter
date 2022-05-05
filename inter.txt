@@ -1,0 +1,19 @@
+itip x ~ 5 :
+itip l ~ 4 * 2 :
+itip v ~ 8 + 2:
+dtip y ~ 2.4:
+stip z ~ hello:
+btip d ~ false:
+x ~ l:
+l ~ 7:
+print << x:
+print << z:
+print << v:
+print << l:
+ardyoq (x > l) { print << x << l : }
+ardyoq ( x > v) { print << z << y :}
+frik ( 5 ) { print << y :}
+
+
+
+
